@@ -1,0 +1,77 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.product {
+  text-align: center;
+  color: #2d2b2b;
+  padding: 4rem 0;
+  background: url('comfortable-pillow-sofa.jpg') no-repeat center/cover;
+}
+
+.btn {
+  display: inline-block;
+  margin-block: 20px;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+#features{
+  border: 1px grey solid;
+  padding: 4rem 0;
+}
+.features {
+  background-color: #fff;
+  display: flex;
+}
+
+.feature {
+  margin: 2rem;
+  display: flex;
+  align-items:flex-start;
+}
+
+.feature img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.border_icon{
+  border: 1px solid rgb(218, 176, 27);
+  border-radius: 15px;
+  margin-right: 20px;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .features {
+    margin: 1rem;
+    flex-direction: column;
+  }
+}
